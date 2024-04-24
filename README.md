@@ -6,10 +6,10 @@
 ### Steps:
 * Upload the Domain Data to s3 bucket
 * Create AWS SageMaker role and attach the required persmission specially the **Fulls3bucketAcceess**
-* ![image](https://github.com/sidahmed-faisal/Finetune-Llama2-7B-on-Financial-data-with-Sagemaker/assets/83870963/a287366a-1ba0-4de1-95be-394acc639989)
-* ![image](https://github.com/sidahmed-faisal/Finetune-Llama2-7B-on-Financial-data-with-Sagemaker/assets/83870963/c0d8fb3f-8081-40b8-bd8d-bdbe1271a306)
+  ![image](https://github.com/sidahmed-faisal/Finetune-Llama2-7B-on-Financial-data-with-Sagemaker/assets/83870963/a287366a-1ba0-4de1-95be-394acc639989)
+  ![image](https://github.com/sidahmed-faisal/Finetune-Llama2-7B-on-Financial-data-with-Sagemaker/assets/83870963/c0d8fb3f-8081-40b8-bd8d-bdbe1271a306)
 * Create Sakemaker notebook instance with the role created in the previous step
-* ![image](https://github.com/sidahmed-faisal/Finetune-Llama2-7B-on-Financial-data-with-Sagemaker/assets/83870963/f251122a-956a-41ca-b933-e280a97c61ab)
+  ![image](https://github.com/sidahmed-faisal/Finetune-Llama2-7B-on-Financial-data-with-Sagemaker/assets/83870963/f251122a-956a-41ca-b933-e280a97c61ab)
 * Fine-tune the model on your chosen dataset using training notebook
 * Test and evaluate the model for its responses to domain knowledge and text-generation tasks using evaluation notebook
 * Deploy the fine-tuned model
